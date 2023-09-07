@@ -1,0 +1,25 @@
+{
+  "name": "blockwise",
+  "version": "1.0.0",
+  "description": "Minimalistic utility lib for writing simple 2d games where everything is a block.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ferdodo/blockwise"
+  },
+  "keywords": [
+    "2d",
+    "bloc",
+    "box",
+    "collision"
+  ],
+  "author": "Thomas Riffard",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc && typedoc --plugin typedoc-plugin-include-example src/index.ts"
+  },
+  "devDependencies": {
+    "typedoc": "^0.25.1",
+    "typedoc-plugin-include-example": "^1.0.0",
+    "typescript": "^5.2.2"
+  }
+}
