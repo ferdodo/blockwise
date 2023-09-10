@@ -16,9 +16,10 @@
   "author": "Thomas Riffard",
   "license": "MIT",
   "scripts": {
-    "build": "tsc && node ./src/test && typedoc --plugin typedoc-plugin-include-example src/index.ts"
+    "build": "tsc && node ./src/test && typedoc --plugin typedoc-plugin-include-example src/index.ts && dprint check"
   },
   "devDependencies": {
+    "dprint": "^0.41.0",
     "typedoc": "^0.25.1",
     "typedoc-plugin-include-example": "^1.0.0",
     "typescript": "^5.2.2"
