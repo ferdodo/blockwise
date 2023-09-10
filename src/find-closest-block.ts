@@ -1,5 +1,4 @@
-import { Block } from "./block";
-import { calculateBlockDistance } from "./calculate-block-distance";
+import { Block, calculateBlockDistance } from "blockwise";
 
 /**
  * @includeExample ./src/find-closest-block.example.ts

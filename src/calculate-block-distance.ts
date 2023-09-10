@@ -1,4 +1,4 @@
-import { Block } from "./block";
+import { Block } from "blockwise";
 
 /**
  * Calculate distance between block.

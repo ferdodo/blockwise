@@ -1,5 +1,4 @@
-import { Block } from "./block";
-import { findClosestBlock } from "./find-closest-block";
+import { Block, findClosestBlock } from "blockwise";
 import assert from "assert/strict";
 
 const blockList: Block[] = [

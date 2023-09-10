@@ -1,5 +1,4 @@
-import { Block } from "./block";
-import { isBlockColliding } from "./is-block-colliding";
+import { Block, isBlockColliding } from "blockwise";
 import assert from "assert/strict";
 
 const a: Block = { x: 0, y: 0, w: 1, h: 1 };

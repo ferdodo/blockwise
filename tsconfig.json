@@ -5,6 +5,11 @@
 		"noUnusedParameters": true,
 		"target": "es6",
 		"module": "nodenext",
-		"moduleResolution": "nodenext"
+		"moduleResolution": "nodenext",
+		"baseUrl": ".",
+		"outDir": "dist",
+	    "paths": {
+	      "blockwise": ["src/index"]
+	    }	
 	}
 }

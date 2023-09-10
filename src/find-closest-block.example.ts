@@ -1,5 +1,4 @@
-import { Block } from "./block";
-import { findClosestBlock } from "./find-closest-block";
+import { Block, findClosestBlock } from "blockwise";
 
 const blockList: Block[] = [
 	{ x: 10, y: 0, w: 1, h: 1 },

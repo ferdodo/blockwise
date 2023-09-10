@@ -1,4 +1,4 @@
-import { Block } from "./block";
+import { Block } from "blockwise";
 
 /**
  * @includeExample ./src/is-block-including.example.ts
