@@ -15,6 +15,7 @@
 		"**/*.{json}"
 	],
 	"excludes": [
+		"dist",
 		"**/node_modules",
 		"npm-shrinkwrap.json"
 	],
