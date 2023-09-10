@@ -1,19 +1,25 @@
 {
-  "lineWidth": 160,
-  "typescript": {
-    "quoteStyle": "preferDouble",
-    "useTabs": true,
-    "trailingCommas": "never",
-    "importDeclaration.sortNamedImports": "maintain",
-    "module.sortImportDeclarations": "maintain"
-  },
-  "includes": [
-    "**/*.{ts}"
-  ],
-  "excludes": [
-    "**/node_modules"
-  ],
-  "plugins": [
-    "https://plugins.dprint.dev/typescript-0.81.1.wasm"
-  ]
+	"lineWidth": 160,
+	"typescript": {
+		"quoteStyle": "preferDouble",
+		"useTabs": true,
+		"trailingCommas": "never",
+		"importDeclaration.sortNamedImports": "maintain",
+		"module.sortImportDeclarations": "maintain"
+	},
+	"json": {
+		"useTabs": true
+	},
+	"includes": [
+		"**/*.{ts}",
+		"**/*.{json}"
+	],
+	"excludes": [
+		"**/node_modules",
+		"npm-shrinkwrap.json"
+	],
+	"plugins": [
+		"https://plugins.dprint.dev/typescript-0.81.1.wasm",
+		"https://plugins.dprint.dev/json-0.17.4.wasm"
+	]
 }

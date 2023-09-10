@@ -8,8 +8,8 @@
 		"moduleResolution": "nodenext",
 		"baseUrl": ".",
 		"outDir": "dist",
-	    "paths": {
-	      "blockwise": ["src/index"]
-	    }	
+		"paths": {
+			"blockwise": ["src/index"]
+		}
 	}
 }
