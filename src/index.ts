@@ -1,6 +1,10 @@
 export { Block } from "./block";
 export { calculateBlockDistance } from "./calculate-block-distance";
+export { CENTERED_UNIT_BLOCK } from "./centered-unit-block";
 export { findClosestBlock } from "./find-closest-block";
-export { isBlockCoincident } from "./is-block-coincident";
 export { isBlockColliding } from "./is-block-colliding";
+export { isBlockEqual } from "./is-block-equal";
 export { isBlockIncluding } from "./is-block-including";
+export { isBlockPositionEqual } from "./is-block-position-equal";
+export { ORIGIN_POSITION } from "./origin-position";
+export { UNIT_BLOCK } from "./unit-block";
