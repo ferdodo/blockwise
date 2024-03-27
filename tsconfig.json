@@ -10,6 +10,7 @@
 		"outDir": "dist",
 		"declaration": true,
 		"declarationDir": "dist",
+		"skipLibCheck": true,
 		"paths": {
 			"blockwise": ["src/index"]
 		}
