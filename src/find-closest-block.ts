@@ -1,6 +1,8 @@
 import { Block, calculateBlockDistance } from "blockwise";
 
 /**
+ * Returns the reference of the closest block of the array.
+ *
  * @includeExample ./src/find-closest-block.example.ts
  */
 export function findClosestBlock(blockList: Block[], target: Block): Block {

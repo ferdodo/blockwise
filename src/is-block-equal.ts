@@ -7,5 +7,5 @@ export function isBlockEqual(a: Block, b: Block): boolean {
 	return a.x === b.x
 		&& a.y === b.y
 		&& a.w === b.w
-		&& a.h === a.h;
+		&& a.h === b.h;
 }

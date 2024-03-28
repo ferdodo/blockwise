@@ -1,0 +1,12 @@
+{
+	"$schema": "./node_modules/@stryker-mutator/core/schema/stryker-schema.json",
+	"testRunner": "vitest",
+	"ignorePatterns": [
+		"**/*.example.ts"
+	],
+	"thresholds": {
+		"high": 90,
+		"low": 40,
+		"break": 99
+	}
+}

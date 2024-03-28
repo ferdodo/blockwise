@@ -1,4 +1,5 @@
 export { Block } from "./block";
+export { calculateBlockCenter } from "./calculate-block-center";
 export { calculateBlockDistance } from "./calculate-block-distance";
 export { CENTERED_UNIT_BLOCK } from "./centered-unit-block";
 export { findClosestBlock } from "./find-closest-block";
