@@ -1,18 +1,19 @@
 {
 	"name": "blockwise",
-	"version": "2.1.0",
+	"version": "2.2.0",
 	"lockfileVersion": 3,
 	"requires": true,
 	"packages": {
 		"": {
 			"name": "blockwise",
-			"version": "2.1.0",
+			"version": "2.2.0",
 			"license": "MIT",
 			"devDependencies": {
 				"@stryker-mutator/core": "^8.2.6",
 				"@stryker-mutator/vitest-runner": "^8.2.6",
 				"@types/node": "^20.6.0",
 				"dprint": "^0.41.0",
+				"rxjs": "^7.8.1",
 				"tsc-alias": "^1.8.7",
 				"typedoc": "^0.25.1",
 				"typedoc-plugin-include-example": "^1.0.1",
