@@ -9,7 +9,7 @@ import { OperatorFunction, Observable, pairwise, map, filter } from "rxjs";
  *
  * Other values are ignored.
  *
- * @includeExample ./src/map-positions-to-unitary-movements.ts
+ * @includeExample ./src/map-positions-to-unitary-movements.example.ts
  */
 export function mapPositionsToUnitaryMovements(): OperatorFunction<Block, Block> {
 	return function(source: Observable<Block>): Observable<Block> {
