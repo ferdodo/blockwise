@@ -6,6 +6,7 @@ export { findClosestBlock } from "./find-closest-block";
 export { isBlockColliding } from "./is-block-colliding";
 export { isBlockEqual } from "./is-block-equal";
 export { isBlockIncluding } from "./is-block-including";
+export { isBlockNotEqual } from "./is-block-not-equal";
 export { isBlockPositionEqual } from "./is-block-position-equal";
 export { mapPositionsToUnitaryMovements } from "./map-positions-to-unitary-movements";
 export { ORIGIN_POSITION } from "./origin-position";
