@@ -10,5 +10,6 @@ export { isBlockIncluding } from "./is-block-including";
 export { isBlockNotEqual } from "./is-block-not-equal";
 export { isBlockPositionEqual } from "./is-block-position-equal";
 export { mapPositionsToUnitaryMovements } from "./map-positions-to-unitary-movements";
+export { mapToView } from "./map-to-view";
 export { ORIGIN_POSITION } from "./origin-position";
 export { UNIT_BLOCK } from "./unit-block";
