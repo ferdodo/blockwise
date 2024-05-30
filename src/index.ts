@@ -1,3 +1,4 @@
+export { addPosition } from "./add-position";
 export { Block } from "./block";
 export { BlockFactory } from "./block-factory";
 export { calculateBlockCenter } from "./calculate-block-center";

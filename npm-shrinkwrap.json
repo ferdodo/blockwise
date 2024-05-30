@@ -1,12 +1,12 @@
 {
 	"name": "blockwise",
-	"version": "2.5.0",
+	"version": "2.6.0",
 	"lockfileVersion": 3,
 	"requires": true,
 	"packages": {
 		"": {
 			"name": "blockwise",
-			"version": "2.5.0",
+			"version": "2.6.0",
 			"license": "MIT",
 			"devDependencies": {
 				"@stryker-mutator/core": "^8.2.6",

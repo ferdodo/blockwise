@@ -1,6 +1,6 @@
 {
 	"name": "blockwise",
-	"version": "2.5.0",
+	"version": "2.6.0",
 	"description": "Minimalistic utility lib for writing simple 2d games where everything is a block.",
 	"main": "dist/index.js",
 	"repository": {
