@@ -7,6 +7,8 @@ export { CENTERED_UNIT_BLOCK } from "./centered-unit-block";
 export { findClosestBlock } from "./find-closest-block";
 export { isBlockColliding } from "./is-block-colliding";
 export { isBlockEqual } from "./is-block-equal";
+export { isBlockGroupColliding } from "./is-block-group-colliding";
+export { isBlockGroupCollidingBlockGroup } from "./is-block-group-colliding-block-group";
 export { isBlockIncluding } from "./is-block-including";
 export { isBlockNotEqual } from "./is-block-not-equal";
 export { isBlockPositionEqual } from "./is-block-position-equal";
