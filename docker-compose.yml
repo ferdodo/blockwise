@@ -3,3 +3,8 @@ services:
     build: .
     ports:
       - "1116:80"
+
+  publish:
+    build:
+      context: .
+      target: publish
