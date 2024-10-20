@@ -1,5 +1,6 @@
 import { Block, UNIT_BLOCK } from "blockwise";
-import { OperatorFunction, Observable, pairwise, map, filter } from "rxjs";
+import type { OperatorFunction, Observable } from "rxjs";
+import { pairwise, map, filter } from "rxjs/operators";
 
 /**
  * Maps the position of a

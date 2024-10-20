@@ -1,6 +1,7 @@
 export { addPosition } from "./add-position";
 export { Block } from "./block";
 export { BlockFactory } from "./block-factory";
+export { blockSchema } from "./block-schema";
 export { calculateBlockCenter } from "./calculate-block-center";
 export { calculateBlockDistance } from "./calculate-block-distance";
 export { CENTERED_UNIT_BLOCK } from "./centered-unit-block";
