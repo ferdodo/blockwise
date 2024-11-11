@@ -15,6 +15,7 @@ COPY --from=0 /blockwise/package.json .
 COPY --from=0 /blockwise/npm-shrinkwrap.json .
 COPY --from=0 /blockwise/dist dist
 RUN rm dist/*.test.js dist/*.test.d.ts dist/*.example.js dist/*.example.d.ts
+ENTRYPOINT ["/bin/bash"]
 
 FROM nginx
 COPY --from=0 blockwise/docs /usr/share/nginx/html
