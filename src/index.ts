@@ -10,6 +10,7 @@ export { isBlockColliding } from "./is-block-colliding";
 export { isBlockEqual } from "./is-block-equal";
 export { isBlockGroupColliding } from "./is-block-group-colliding";
 export { isBlockGroupCollidingBlockGroup } from "./is-block-group-colliding-block-group";
+export { isBlockGroupPositionEqual } from "./is-block-group-position-equal";
 export { isBlockIncluding } from "./is-block-including";
 export { isBlockNotEqual } from "./is-block-not-equal";
 export { isBlockPositionEqual } from "./is-block-position-equal";
