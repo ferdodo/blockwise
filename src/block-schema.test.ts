@@ -2,13 +2,13 @@ import { Block, blockSchema } from "blockwise";
 import { test, expect } from "vitest";
 import { Draft07 } from "json-schema-library";
 
-test("Shall return no error on good format", function() {
+test("Shall return no error on good format", () => {
 	const a: Block = { x: 2, y: 0, w: 1, h: 1 };
 	const errors = new Draft07(blockSchema).validate(a);
 	expect(errors).toEqual([]);
 });
 
-test("Shall fail on bad type", function() {
+test("Shall fail on bad type", () => {
 	const a = { x: "2", y: 0, w: 1, h: 1 };
 	const b = { x: 2, y: "0", w: 1, h: 1 };
 	const c = { x: 2, y: 0, w: "1", h: 1 };
@@ -24,13 +24,13 @@ test("Shall fail on bad type", function() {
 	expect(errorsD).not.toEqual([]);
 });
 
-test("Shall fail on extra property", function() {
+test("Shall fail on extra property", () => {
 	const a = { x: 2, y: 0, w: 1, h: 1, extraProp: true };
 	const errors = new Draft07(blockSchema).validate(a);
 	expect(errors).not.toEqual([]);
 });
 
-test("Shall fail on missing property", function() {
+test("Shall fail on missing property", () => {
 	const a = { y: 0, w: 1, h: 1 };
 	const b = { x: 0, w: 1, h: 1 };
 	const c = { x: 0, y: 1, w: 1 };

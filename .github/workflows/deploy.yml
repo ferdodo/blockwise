@@ -22,7 +22,7 @@ jobs:
       - name: Install and Build 🔧
         run: |
           npm install
-          npm audit --audit-level=moderate
+          npm audit --production --audit-level=low
           npm run build
 
       - name: Deploy 🚀
