@@ -1,11 +1,8 @@
-import tsconfigPaths from 'vite-tsconfig-paths';
+import tsconfigPaths from "vite-tsconfig-paths";
 
 export default {
 	test: {
-		exclude: [
-			"node_modules",
-			"dist"
-		]
+		exclude: ["node_modules", "dist"],
 	},
-	plugins: [tsconfigPaths()]
+	plugins: [tsconfigPaths()],
 };

@@ -7,26 +7,22 @@
 		"type": "git",
 		"url": "https://github.com/ferdodo/blockwise"
 	},
-	"keywords": [
-		"2d",
-		"bloc",
-		"box",
-		"collision"
-	],
+	"keywords": ["2d", "bloc", "box", "collision"],
 	"author": "Thomas Riffard",
 	"license": "MIT",
 	"scripts": {
-		"build": "tsc && tsc-alias && vitest run && stryker run && typedoc --treatWarningsAsErrors --plugin typedoc-plugin-include-example src/index.ts && dprint check"
+		"build": "biome ci --organize-imports-enabled=false && tsc && exportcase check src && tsc-alias && vitest run && stryker run && typedoc --treatWarningsAsErrors --plugin typedoc-plugin-include-example src/index.ts"
 	},
 	"devDependencies": {
+		"@biomejs/biome": "^1.9.4",
 		"@stryker-mutator/core": "^8.2.6",
 		"@stryker-mutator/vitest-runner": "^8.2.6",
 		"@types/node": "^20.6.0",
-		"dprint": "^0.41.0",
+		"exportcase": "^0.10.0",
 		"json-schema-library": "^9.3.5",
 		"tsc-alias": "^1.8.7",
-		"typedoc": "^0.26.11",
-		"typedoc-plugin-include-example": "^2.0.2",
+		"typedoc": "^0.28.4",
+		"typedoc-plugin-include-example": "^2.1.2",
 		"typescript": "^5.2.2",
 		"vite": "^6.2.2",
 		"vite-tsconfig-paths": "^4.3.2",
