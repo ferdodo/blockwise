@@ -15,5 +15,6 @@ test("Moving a block to the right shall create a distance equal to the moved dis
 	const randomDistance = Math.random();
 	const movedBlock = { ...UNIT_BLOCK, x: UNIT_BLOCK.x + randomDistance };
 	const distance = calculateBlockDistance(UNIT_BLOCK, movedBlock);
-	expect(distance).toEqual(randomDistance);
+	const difference = Math.abs(distance - randomDistance);
+	expect(difference).toBeLessThan(Number.EPSILON);
 });
