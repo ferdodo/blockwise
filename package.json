@@ -7,7 +7,12 @@
 		"type": "git",
 		"url": "https://github.com/ferdodo/blockwise"
 	},
-	"keywords": ["2d", "bloc", "box", "collision"],
+	"keywords": [
+		"2d",
+		"bloc",
+		"box",
+		"collision"
+	],
 	"author": "Thomas Riffard",
 	"license": "MIT",
 	"scripts": {
@@ -22,7 +27,7 @@
 		"json-schema-library": "^9.3.5",
 		"tsc-alias": "^1.8.7",
 		"typedoc": "^0.28.4",
-		"typedoc-plugin-include-example": "^2.1.2",
+		"typedoc-plugin-include-example": "^3.0.2",
 		"typescript": "^5.2.2",
 		"vite": "^6.2.2",
 		"vite-tsconfig-paths": "^4.3.2",
