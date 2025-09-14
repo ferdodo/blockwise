@@ -7,12 +7,7 @@
 		"type": "git",
 		"url": "https://github.com/ferdodo/blockwise"
 	},
-	"keywords": [
-		"2d",
-		"bloc",
-		"box",
-		"collision"
-	],
+	"keywords": ["2d", "bloc", "box", "collision"],
 	"author": "Thomas Riffard",
 	"license": "MIT",
 	"scripts": {
