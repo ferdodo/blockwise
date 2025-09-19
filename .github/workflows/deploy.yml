@@ -22,6 +22,8 @@ jobs:
           path: docs
   deploy:
     runs-on: ubuntu-latest
+    permissions:
+      content: write
     needs: build
     steps:
       - uses: actions/checkout@v5
