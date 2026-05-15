@@ -11,7 +11,8 @@
 	"author": "Thomas Riffard",
 	"license": "MIT",
 	"scripts": {
-		"build": "biome ci --organize-imports-enabled=false && tsc && exportcase check src && tsc-alias && vitest run && stryker run && typedoc --treatWarningsAsErrors --plugin typedoc-plugin-include-example src/index.ts"
+		"build": "biome ci --organize-imports-enabled=false && tsc && exportcase check src && tsc-alias && vitest run && stryker run",
+		"docs": "typedoc --treatWarningsAsErrors --plugin typedoc-plugin-include-example src/index.ts"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",

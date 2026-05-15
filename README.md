@@ -2,7 +2,7 @@
 [![npm](https://img.shields.io/npm/dw/blockwise)](https://www.npmjs.com/package/blockwise)
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/ferdodo/blockwise/master)](https://github.com/ferdodo/blockwise)
 [![GitHub](https://img.shields.io/github/license/ferdodo/blockwise)](https://github.com/ferdodo/blockwise)
-[![npm](https://img.shields.io/badge/documentation-blue)](https://ferdodo.github.io/blockwise/)
+[![npm](https://img.shields.io/badge/documentation-blue)](https://ferdodo.codeberg.page/blockwise/)
 
 Blockwise is a utility library that simplifies 2D game development by treating all elements as blocks. It exposes a single TypeScript interface, aiming to provide essential functions for creating small, beginner-friendly games.
 
@@ -16,7 +16,7 @@ console.log(isBlockColliding(player, obstacle)); // false
 
 ## Documentation
 
-https://ferdodo.github.io/blockwise/
+https://ferdodo.codeberg.page/blockwise/
 
 ## Installation
 

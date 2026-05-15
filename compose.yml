@@ -1,10 +1,17 @@
 services:
-  blockwise:
-    build: .
+  docs:
+    build:
+      dockerfile: docs.Dockerfile
+      context: .
     ports:
       - "1116:80"
 
   publish:
     build:
       context: .
-      target: publish
+      dockerfile: publish.Dockerfile
+
+  publish-docs:
+    build:
+      context: .
+      dockerfile: publish-docs.Dockerfile
