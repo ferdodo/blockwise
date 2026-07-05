@@ -4,6 +4,8 @@ import { UNIT_BLOCK } from "blockwise";
 /**
  * Helper class to generate blocks.
  *
+ * ![](./BlockFactory.example.svg)
+ *
  * @includeExample
  */
 export class BlockFactory {

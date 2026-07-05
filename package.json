@@ -11,17 +11,23 @@
 	"author": "Thomas Riffard",
 	"license": "MIT",
 	"scripts": {
-		"build": "biome ci --organize-imports-enabled=false && tsc && exportcase check src && tsc-alias && vitest run && stryker run",
-		"docs": "typedoc --treatWarningsAsErrors --plugin typedoc-plugin-include-example src/index.ts"
+		"build": "vitest run && stryker run && biome ci --organize-imports-enabled=false && tsc && exportcase check src && tsc-alias",
+		"generate-svgs": "node scripts/generate-svgs.js",
+		"docs": "node scripts/generate-svgs.js && typedoc --treatWarningsAsErrors --plugin typedoc-plugin-include-example src/index.ts"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
 		"@stryker-mutator/core": "^9.6.1",
 		"@stryker-mutator/vitest-runner": "^9.6.1",
+		"@types/d3": "^7.4.3",
+		"@types/jsdom": "^28.0.3",
 		"@types/node": "^20.6.0",
+		"d3": "^7.9.0",
 		"exportcase": "^0.10.0",
+		"jsdom": "^29.1.1",
 		"json-schema-library": "^9.3.5",
 		"tsc-alias": "^1.8.7",
+		"tsx": "^4.23.0",
 		"typedoc": "^0.28.4",
 		"typedoc-plugin-include-example": "^3.0.2",
 		"typescript": "^5.2.2",

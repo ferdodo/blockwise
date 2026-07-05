@@ -1,6 +1,8 @@
 import type { Block } from "blockwise";
 
 /**
+ * ![](./isBlockIncluding.example.svg)
+ *
  * @includeExample
  */
 export function isBlockIncluding(a: Block, b: Block) {

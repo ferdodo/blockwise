@@ -3,6 +3,8 @@ import type { Block } from "blockwise";
 /**
  * Calculate the position of the center of a block.
  *
+ * ![](./calculateBlockCenter.example.svg)
+ *
  * @includeExample
  */
 export function calculateBlockCenter(block: Block): Block {

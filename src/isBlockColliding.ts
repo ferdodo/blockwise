@@ -1,6 +1,8 @@
 import type { Block } from "blockwise";
 
 /**
+ * ![](./isBlockColliding.example.svg)
+ *
  * @includeExample
  */
 export function isBlockColliding(a: Block, b: Block): boolean {

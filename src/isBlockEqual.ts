@@ -1,6 +1,8 @@
 import type { Block } from "blockwise";
 
 /**
+ * ![](./isBlockEqual.example.svg)
+ *
  * @includeExample
  */
 export function isBlockEqual(a: Block, b: Block): boolean {

@@ -1,12 +1,40 @@
 import type { Block } from "blockwise";
 import { isBlockGroupColliding } from "blockwise";
+import { generateExampleSvg } from "./generateExampleSvg";
 
-const blocks: Block[] = [
-	{ x: 0, y: 0, w: 10, h: 10 },
-	{ x: 20, y: 20, w: 10, h: 10 },
-	{ x: 10, y: 10, w: 10, h: 10 },
+const testBlock: Block = { x: 2, y: 2, w: 5, h: 3 };
+
+const groupA: Block[] = [
+	{ x: 0, y: 0, w: 5, h: 3 },
+	{ x: 6, y: 0, w: 5, h: 3 },
 ];
 
-const block: Block = { x: 5, y: 5, w: 10, h: 10 };
+const isColliding = isBlockGroupColliding(groupA, testBlock);
 
-console.log(isBlockGroupColliding(blocks, block)); // true
+const groupB: Block[] = [
+	{ x: 0, y: 6, w: 5, h: 2 },
+	{ x: 6, y: 6, w: 5, h: 2 },
+];
+
+const isNotColliding = isBlockGroupColliding(groupB, testBlock);
+
+generateExampleSvg([
+	...groupA.map((b, i) => ({
+		block: b,
+		isBold: false,
+		isColored: isColliding,
+		name: `colliding${i}`,
+	})),
+	{
+		block: testBlock,
+		isBold: true,
+		isColored: false,
+		name: "test",
+	},
+	...groupB.map((b, i) => ({
+		block: b,
+		isBold: false,
+		isColored: isNotColliding,
+		name: `non_colliding${i}`,
+	})),
+]);

@@ -13,6 +13,7 @@ FROM node
 WORKDIR /
 RUN git clone -b pages https://codeberg.org/ferdodo/blockwise.git
 WORKDIR /blockwise
+RUN git rm -r *
 COPY --from=0 blockwise/docs /blockwise
 RUN git add .
 RUN echo 'read -p "Enter email: " email' >> /root/.bashrc

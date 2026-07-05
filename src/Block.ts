@@ -1,4 +1,6 @@
 /**
+ * ![](./Block.example.svg)
+ *
  * @includeExample
  */
 export interface Block {

@@ -1,6 +1,8 @@
 import type { Block } from "blockwise";
 
 /**
+ * ![](./addPosition.example.svg)
+ *
  * @includeExample
  */
 export function addPosition(a: Block, b: Block): Block {

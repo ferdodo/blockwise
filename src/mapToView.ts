@@ -1,7 +1,9 @@
 import type { Block } from "blockwise";
 
 /**
- * Maps a block to another view.
+ * Maps/scales/projects a block to another view
+ *
+ * ![](./mapToView.example.svg)
  *
  * @includeExample
  */

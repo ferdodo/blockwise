@@ -4,6 +4,8 @@ import { calculateBlockDistance } from "blockwise";
 /**
  * Returns the reference of the closest block of the array.
  *
+ * ![](./findClosestBlock.example.svg)
+ *
  * @includeExample
  */
 export function findClosestBlock(blockList: Block[], target: Block): Block {
